@@ -78,7 +78,7 @@
         {
             int buf;
             for(int i = 0; i < arr.Length / 2; i++)
-            {
+            {// можна теж міняти кортежем
                 buf = arr[i];
                 arr[i] = arr[arr.Length - i - 1];
                 arr[arr.Length - i - 1] = buf;
@@ -93,6 +93,7 @@
                 if (arr[i] != arr[arr.Length - i - 1])
                 {
                     isPalindrome = false;
+                    // треба перервати цикл
                 }
             }
             return isPalindrome;
