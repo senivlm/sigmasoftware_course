@@ -1,7 +1,7 @@
 ﻿namespace hw2task2
 {
     public class Program
-    {
+    {// не всі завдання по матрицях
         public static void Main(string[] args)
         {
             var A = new Matrix(4);
