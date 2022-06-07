@@ -3,9 +3,9 @@ using System.IO;
 using System.Text;
 
 namespace hw5
-{
+{//Ваш номер 23
     class Program
-    {
+    {// Це погана ідея організовувати методи в цьому класі. Треба було організувати в іншому класі.
         static void Main(string[] args)
         {
             FileSplitMergeSort();
