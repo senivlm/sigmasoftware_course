@@ -1,7 +1,7 @@
 ﻿namespace hw5
 {
     public enum pivotType { right, left, middle };
-
+// не знайшла реалізації методу злиття для великих файлів
 	public partial class Vector
 	{
 		#region QuickSort
