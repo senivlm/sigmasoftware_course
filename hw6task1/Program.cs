@@ -1,7 +1,8 @@
 ﻿using System.IO;
 
 namespace hw6task1
-{
+{// У форматованованому файлі не виведено дат замірів лічильника
+   //Краще мати масив і тоді уніфіковано можна доступатись за номером кварталу
     public enum Q1 { January, February, March }
     public enum Q2 { April, May, June }
     public enum Q3 { July, August, September }
@@ -11,7 +12,7 @@ namespace hw6task1
     public class Program
     {
         public static void Main(string[] args)
-        {
+        {// Частину роботи функції  слід було делегувати в інші класи.
             var Service = AccountingService.GetInstance();
 
             const string filePath = @"..\..\..\input.txt";
