@@ -8,7 +8,7 @@
     public class ApartmentToStringDefault : IApartmentToString
     {
         public string ToString(Apartment apartment)
-        {
+        {// ідентифікатори з малої літери
             var Number = apartment.Number;
             var Owner = apartment.Owner;
             var meterReadingDates = apartment.meterReadingDates;
