@@ -8,7 +8,7 @@ namespace hw6task2
         {
             return Regex.Replace(sentence.Trim(), " +", " ");
         }
-
+// А чи не краще було вибудувати List<KeyValuePair<string, string>>
         public static KeyValuePair<List<string>, List<string>>
             FindExtremumWords(string[] words)
         {
